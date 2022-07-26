@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
+
+* {
+  marign: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Karla", sans-serif;
+}
+
+/* Text Colors */
+.text-cyan {
+  color: #2ab2af;
+}
+
+.text-bright-yellow {
+  color: #c0df34;
+}
+
+.text-light-gray {
+  color: #e5eff5;
+}
+
+.text-grayish-blue {
+  color: #98a6bd;
+}
+
+/* Background Colors */
+.bg-cyan {
+  background: #2ab2af;
+}
+
+.bg-bright-yellow {
+  background: #c0df34;
+}
+
+.bg-light-gray {
+  background: #e5eff5;
+}
+
+.bg-grayish-blue {
+  background: #98a6bd;
+}
+
+/* Custom css */
+.main-div {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  box-shadow: 0px 0px 14px #0000002f;
+  width: 400px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.card .card-first-item {
+  padding: 24px;
+  background: white;
+}
+
+.card .card-second-item {
+  display: flex;
+  align-items: "center";
+}
+
+.card-second-item .first,
+.card-second-item .second {
+  padding: 24px;
+  width: 100%;
+}
+
+.first {
+  background-color: #2ab2af;
+}
+
+.second {
+  background-color: #2ab2b0b6;
+}
+
+.mb-4 {
+  margin-bottom: 14px;
+}
+
+.mb-2 {
+  margin-bottom: 8px;
+}
+
+.mb-0 {
+  margin-bottom: 0px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+i {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+span {
+  font-size: 10px;
+}
